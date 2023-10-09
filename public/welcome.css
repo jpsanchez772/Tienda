@@ -1,0 +1,94 @@
+/* Estilos generales */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 30pxpx;
+    padding: 30px;
+} */
+
+#carouselExampleDark {
+    max-width: 50%; /* Ajusta el tamaño del carrusel aquí según tus preferencias */
+    margin: 0 auto; /* Centra el carrusel en la página */
+  }
+  
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: #fff;
+  }
+  h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #333; /* Color de texto */
+    text-align: center; /* Centrar el texto */
+    text-transform: uppercase; /* Convertir el texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-top: 20px; /* Espacio superior */
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6600; /* Cambia el color al pasar el mouse */
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6600; /* Cambia el color al pasar el mouse */
+}

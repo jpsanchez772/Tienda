@@ -1,0 +1,64 @@
+/* Estilos generales del body */
+body {
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding-left: 30px; /* Agrega margen a la izquierda */
+    padding-right: 30px; /* Agrega margen a la derecha */
+
+}
+
+/* Estilos específicos del footer */
+.footer {
+    background-color: #3d3c3c;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Elimina el margen del footer */
+.footer * {
+    margin: 0;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #ff6600;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6600;
+}
+
