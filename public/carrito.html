@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-IK6kPmM5NzgOKMSQs5n5MjU9P7wlqu6A6j4xpg5fi2BywiEMpXu2K5A4cV5xY2wAR" crossorigin="anonymous">
+    <link rel="stylesheet" href="carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-IK6kPmM5NzgOKMSQs5n5MjU9P7wlqu6A6j4xpg5fi2BywiEMpXu2K5A4cV5xY2wAR" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="welcome.html">Super Fruit5</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="welcome.html">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 custom-search" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">Buscar</button>
+                            </form>
+                        </li> 
+                    </ul>
+                </div>
+                <ul class="navbar-nav ml-auto"> <!-- Utilizamos ml-auto para alinear a la derecha -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="carrito.html">Carrito</a>
+                            <i class="fas fa-shopping-cart"></i> <!-- Ícono de carrito -->
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto"> <!-- Utilizamos ml-auto para alinear a la derecha -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Logout</a>
+                          <i class="fas fa-shopping-cart"></i> <!-- Ícono de carrito -->
+                      </a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        
+        
+        
+
+    </header>
+
+    <div class="container">
+        <div class="productos">
+            <h2>Carrito</h2>
+            <div class="producto">
+                <img src="imagenes/durazno.webp" alt="Producto 1">
+                <div class="producto-details">
+                    <h4>Durazno</h4>
+                    <p>Precio: $19.99</p>
+                    <p class="cantidad">Cantidad: 1</p>
+                </div>
+                <button>eliminar</button>
+            </div>
+            <div class="producto">
+                <img src="imagenes/guayaba.avif" alt="Producto 2">
+                <div class="producto-details">
+                    <h4>Guayaba</h4>
+                    <p>Precio: $29.99</p>
+                    <p class="cantidad">Cantidad: 1</p>
+                </div>
+                <button>eliminar</button>
+            </div>
+            <div class="producto">
+                <img src="imagenes/sandia.jpeg" alt="Producto 3">
+                <div class="producto-details">
+                    <h4>Sandia</h4>
+                    <p>Precio: $29.99</p>
+                    <p class="cantidad">Cantidad: 1</p>
+                </div>
+                <button>eliminar</button>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </div>
+
+        <div class="carrito">
+            <h2>Total</h2>
+            <h3 class="total">$79.97</h3>
+            <button class="pagar">Realizar Pago</button>
+        </div> 
+    </div>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Carrito</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">equipo</a></li>
+                            <li><a href="#">preguntas frecuentes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Super Fruitt5</h3>
+                        <p>En SuperFruitt5 nos enorgullece ofrecer la frescura y calidad de la naturaleza en cada bocado. Nuestra misión es proporcionarte las frutas más deliciosas y saludables para que disfrutes de una vida llena de sabor y vitalidad. ¡Visítanos hoy y descubre la diferencia que solo la frescura puede hacer!"</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">SuperFruitt5 © 2023</p>
+            </div>
+        </footer>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      
+      
+              
+      

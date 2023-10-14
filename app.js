@@ -29,7 +29,6 @@ app.post('/login', (req, res) => {
     });
 });
 
-// Página principal
 app.get('/index', (req, res) => {
     res.sendFile(__dirname + '/public/login.html');
 });
